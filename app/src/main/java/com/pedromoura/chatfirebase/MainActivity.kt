@@ -10,12 +10,20 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.google.firebase.Firebase
+import com.google.firebase.database.database
 import com.pedromoura.chatfirebase.ui.theme.ChatFirebaseTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
+            // Write a message to the database
+            val database = Firebase.database
+            val minhaReferencia = database.getReference("message")
+
+            minhaReferencia.setValue("Hello, World Pedro Moura!")
+
             ChatFirebaseTheme {
                 // A surface container using the 'background' color from the theme
                 Surface(
