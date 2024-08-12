@@ -25,5 +25,6 @@ Senha: [QualquerUma]
 Usuário: other
 Senha: [QualquerUma]
 
-![Captura de Tela 2024-07-29 às 23 25 22](https://github.com/user-attachments/assets/06826968-f8a2-4a30-ac7a-7ee6a104b75b)
-![Captura de Tela 2024-07-29 às 23 25 07](https://github.com/user-attachments/assets/dac7d616-fc69-459e-ba8f-26cfbf0e7f65)
+<img src="https://github.com/user-attachments/assets/06826968-f8a2-4a30-ac7a-7ee6a104b75b" width=260/>
+<img src="https://github.com/user-attachments/assets/dac7d616-fc69-459e-ba8f-26cfbf0e7f65" width=260/>
+
